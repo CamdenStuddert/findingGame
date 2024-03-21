@@ -59,7 +59,7 @@
                                                     <color key="baseForegroundColor" red="0.93725490196078431" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Fd-cT-ca9"/>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bic-E9-Mke"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQM-Ji-NWG">
@@ -233,17 +233,17 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="botLeftButton" destination="VqL-qZ-KIJ" id="9iR-xu-lmS"/>
-                        <outlet property="botMidButton" destination="KvZ-ve-0Oe" id="cOz-tH-wrT"/>
-                        <outlet property="botRightButton" destination="kT3-he-J89" id="dlT-sr-f9A"/>
                         <outlet property="matchTheLetterLabel" destination="bM4-2T-sSK" id="nCI-C7-BkZ"/>
-                        <outlet property="midLeftButton" destination="Vi3-98-Udx" id="lm5-uY-U0L"/>
-                        <outlet property="midMidButton" destination="Csy-PG-yZa" id="3lB-8s-Jmu"/>
-                        <outlet property="midRightButton" destination="VwE-Pj-iAf" id="bkI-8u-y7M"/>
                         <outlet property="scoreLabel" destination="q2q-sg-7qA" id="fQo-A2-ITF"/>
-                        <outlet property="topLeftButton" destination="zrJ-ER-I7U" id="FWU-e8-7vZ"/>
-                        <outlet property="topMidButton" destination="BQM-Ji-NWG" id="fjC-hu-994"/>
-                        <outlet property="topRightButton" destination="x1j-O9-ojn" id="9mt-iH-ASf"/>
+                        <outletCollection property="buttonsArr" destination="zrJ-ER-I7U" collectionClass="NSMutableArray" id="Vdl-is-JfR"/>
+                        <outletCollection property="buttonsArr" destination="BQM-Ji-NWG" collectionClass="NSMutableArray" id="oad-2w-Rd2"/>
+                        <outletCollection property="buttonsArr" destination="x1j-O9-ojn" collectionClass="NSMutableArray" id="P7q-wY-m8D"/>
+                        <outletCollection property="buttonsArr" destination="VwE-Pj-iAf" collectionClass="NSMutableArray" id="FMC-0H-WY2"/>
+                        <outletCollection property="buttonsArr" destination="Csy-PG-yZa" collectionClass="NSMutableArray" id="kbT-MX-Ilx"/>
+                        <outletCollection property="buttonsArr" destination="Vi3-98-Udx" collectionClass="NSMutableArray" id="OTX-ED-Sr1"/>
+                        <outletCollection property="buttonsArr" destination="kT3-he-J89" collectionClass="NSMutableArray" id="LIa-yL-PNN"/>
+                        <outletCollection property="buttonsArr" destination="KvZ-ve-0Oe" collectionClass="NSMutableArray" id="7n6-7F-rvH"/>
+                        <outletCollection property="buttonsArr" destination="VqL-qZ-KIJ" collectionClass="NSMutableArray" id="GS8-Vs-kYg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
